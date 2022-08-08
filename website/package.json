@@ -1,0 +1,33 @@
+{
+  "name": "cra-docs",
+  "private": true,
+  "start": "node --experimental-modules src/app.js",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-alpha.64",
+    "@docusaurus/plugin-client-redirects": "^2.0.1",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.64",
+    "@docusaurus/theme-live-codeblock": "^2.0.0-rc.1",
+    "clsx": "^1.1.1",
+    "docusaurus": "^1.14.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
